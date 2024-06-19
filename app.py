@@ -30,8 +30,8 @@ st.subheader("Enter the Tweet below to predict")
 text_input = st.text_area("Type here...")
 
 # loading the model and vectorizer here
-model = pickle.load(open(r"Models\\Twitter_Model.sav", 'rb'))
-tfidf = pickle.load(open(r"Models\\Vectorizer.pkl", 'rb'))
+model = pickle.load(open(r"Twitter_Model.sav", 'rb'))
+tfidf = pickle.load(open(r"Vectorizer.pkl", 'rb'))
 
 if st.button("Predict Now"):
 
