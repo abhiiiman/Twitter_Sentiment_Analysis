@@ -73,7 +73,7 @@ streamlit run app.py
 ```
 
 # Using the Deployed Streamlit App
-1. Navigate to the Streamlit App [Click Here](https://twitter-sentiment-analysis-abhiiiman.streamlit.app/)
+1. Navigate to the Streamlit App [Click Here](https://twitter-sentiment-analysis-e1b1.onrender.com/)
 2. Enter Tweet Content
 3. Predict Sentiment
 4. Screenshots
